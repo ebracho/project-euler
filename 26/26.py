@@ -32,7 +32,5 @@ def p26():
 			yield (multiplicative_order(i),i)
 	return max(candidates())[1]
 
-
-
-foo()
+print(p26())
 
